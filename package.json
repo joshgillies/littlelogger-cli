@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A CLI utility for posting to http://littlelogs.co",
   "main": "index.js",
+  "bin": {
+    "littlelogger": "index.js"
+  },
   "scripts": {
     "test": "standard && tape test.js"
   },
